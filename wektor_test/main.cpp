@@ -1,4 +1,6 @@
 #include <iostream>
+#include  <wektor.h>
+
 
 using namespace std;
 
