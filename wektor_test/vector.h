@@ -6,6 +6,10 @@ class Vector
 {
 public:
     Vector();
+    Vector( size_t size );
+    Vector( const Vector &vector);
+    Vector( Vektor &&vector);
+    ~Vector();
 };
 
 #endif // VECTOR_H
