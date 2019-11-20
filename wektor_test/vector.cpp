@@ -3,5 +3,17 @@
 
 Vector::Vector()
 {
-    std::cout << "Vector START\n";
+    data = nullptr;
+    size = 0;
+}
+
+Vector::Vector( const Vector &vector)
+{
+    size = vector.size;
+    data = vector.data;
+}
+
+Vector::~Vector()
+{
+
 }
