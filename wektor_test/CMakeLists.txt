@@ -13,10 +13,15 @@ find_package(Qt5Core REQUIRED)
 # Create a list with all .cpp source files
 set( project_sources
     main.cpp
-    wektor.cpp
-    vektor.cpp
+    vector.cpp
 )
 # Create a list with all .h headers files
 set( project_headers
     vector.h
+)
+
+
+# Create executable with all necessary source files
+add_executable(${PROJECT_NAME}
+  ${project_sources}
 )
