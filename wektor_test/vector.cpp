@@ -13,11 +13,6 @@ Vector::Vector( const Vector &vector)
     data = vector.data;
 }
 
-Vector::~Vector()
-{
-
-}
-
 Vector::Vector( size_t size ){
     this->size = size;
 }
