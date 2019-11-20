@@ -2,6 +2,9 @@
 #define VECTOR_H
 #include <cstdlib>
 
+#include <cstddef>
+#include <cstdint>
+
 class Vector
 {
 public:
@@ -11,7 +14,7 @@ public:
     Vector( size_t size );
     Vector( const Vector &vector);
     Vector( Vector &&vector);
-    ~Vector();
+    ~Vector() = default;
 };
 
 #endif // VECTOR_H

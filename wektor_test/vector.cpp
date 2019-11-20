@@ -17,3 +17,7 @@ Vector::~Vector()
 {
 
 }
+
+Vector::Vector( size_t size ){
+    this->size = size;
+}
