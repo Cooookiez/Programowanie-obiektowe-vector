@@ -15,12 +15,14 @@ public:
     Vector( const Vector &vector);
     Vector( Vector&& vector);
     ~Vector();
-    friend void swap(Vector v, Vector u);
 
-    Vector& operator=(Vector u){
-        swap(*this, u);
-        return *this;
-    }
+    void swap(Vector &v, Vector &u);
+
+    Vector& operator=(Vector u);
+    Vector operator+(/*Vector v, */const Vector& u);
+
+    int& operator[] (size_t n);
+    int operator[] (size_t n) const;
 };
 
 #endif // VECTOR_H
