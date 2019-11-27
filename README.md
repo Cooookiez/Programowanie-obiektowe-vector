@@ -9,7 +9,7 @@
   * [x] operator= kopiujący
   * [ ] operator= przenoszący
   * [x] swap
-  * [x] operator+ dla dwóch obiektów klasy Wektor [Przydać się też mogą składowe:]
+  * [ ] operator+ dla dwóch obiektów klasy Wektor [Przydać się też mogą składowe:]
     * [ ] int& operator[] (size_t n)
     * [ ] int operator[] const (size_t n)
     * [ ] size() const
