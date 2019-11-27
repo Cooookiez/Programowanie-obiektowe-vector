@@ -6,9 +6,9 @@
   * [ ] konstruktor przenoszący
   * [x] konstruktor jednaoargumentowy, z argumentem określającym rozmiar wektora
   * [ ] destruktor
-  * [ ] operator= kopiujący
+  * [x] operator= kopiujący
   * [ ] operator= przenoszący
-  * [ ] swap
+  * [x] swap
   * [x] operator+ dla dwóch obiektów klasy Wektor [Przydać się też mogą składowe:]
     * [ ] int& operator[] (size_t n)
     * [ ] int operator[] const (size_t n)
