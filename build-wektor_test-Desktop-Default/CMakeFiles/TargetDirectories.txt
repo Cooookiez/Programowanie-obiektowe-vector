@@ -1,4 +1,0 @@
-/home/mgromek/Pulpit/PO/Programowanie-obiektowe-vector/build-wektor_test-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/mgromek/Pulpit/PO/Programowanie-obiektowe-vector/build-wektor_test-Desktop-Default/CMakeFiles/wektor_test.dir
-/home/mgromek/Pulpit/PO/Programowanie-obiektowe-vector/build-wektor_test-Desktop-Default/CMakeFiles/edit_cache.dir
-/home/mgromek/Pulpit/PO/Programowanie-obiektowe-vector/build-wektor_test-Desktop-Default/CMakeFiles/wektor_test_autogen.dir

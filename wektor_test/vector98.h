@@ -15,7 +15,7 @@ public:
     Vector98( size_t size );
     Vector98( const Vector98 &vector);
     Vector98( Vector98 &&vector);
-    ~Vector();
+    ~Vector98();
 };
 
 
