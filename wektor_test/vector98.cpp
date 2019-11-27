@@ -14,6 +14,7 @@ Vector98::Vector98( const Vector98 &vector)
 }
 
 Vector98::Vector98( size_t size ){
+    this->data = new int[size];
     this->size = size;
 }
 
