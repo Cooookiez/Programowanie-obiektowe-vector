@@ -14,7 +14,7 @@ public:
     Vector( size_t size );
     Vector( const Vector &vector);
     Vector( Vector &&vector);
-    ~Vector() = default;
+    ~Vector();
 };
 
 #endif // VECTOR_H

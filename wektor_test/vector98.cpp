@@ -1,23 +1,24 @@
-#include "vector.h"
+#include "vector98.h"
 #include <iostream>
 
-Vector::Vector()
+Vector98::Vector98()
 {
     data = nullptr;
     size = 0;
 }
 
-Vector::Vector( const Vector &vector)
+Vector98::Vector98( const Vector98 &vector)
 {
     size = vector.size;
     data = vector.data;
 }
 
-Vector::Vector( size_t size ){
+Vector98::Vector98( size_t size ){
     this->size = size;
 }
 
-Vector::~Vector(){
+Vector98::~Vector98(){
     size=0;
     data=nullptr;
 }
+

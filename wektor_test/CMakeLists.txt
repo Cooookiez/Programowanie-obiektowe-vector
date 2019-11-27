@@ -14,10 +14,12 @@ find_package(Qt5Core REQUIRED)
 set( project_sources
     main.cpp
     vector.cpp
+    vector98.cpp
 )
 # Create a list with all .h headers files
 set( project_headers
     vector.h
+    vector98.h
 )
 
 
