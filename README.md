@@ -3,7 +3,7 @@
 * [ ] **Zadanie 1.** Proszę dokończyć implementację klasy Wektor. Przypominam, że powinna ona posiadać:
   * [ ] konstruktor bezargumentowy
   * [ ] konstruktor kopiujący
-  * [ ] konstruktor przenoszący
+  * [x] konstruktor przenoszący
   * [x] konstruktor jednaoargumentowy, z argumentem określającym rozmiar wektora
   * [ ] destruktor
   * [x] operator= kopiujący
