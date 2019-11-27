@@ -18,7 +18,7 @@ Vector::Vector( size_t size ){
     this->size = size;
 }
 
-void swap(Vector v, Vector u){
+void swap(Vector &v, Vector &u){
     std::swap(v.data, u.data);
     std::swap(v.size, u.size);
 }
