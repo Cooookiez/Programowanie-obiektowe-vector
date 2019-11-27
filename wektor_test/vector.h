@@ -13,7 +13,7 @@ public:
     Vector();
     Vector( size_t size );
     Vector( const Vector &vector);
-    Vector( Vector &&vector);
+    Vector( Vector&& vector);
     ~Vector();
     friend void swap(Vector v, Vector u);
 
