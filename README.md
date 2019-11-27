@@ -1,11 +1,11 @@
 # Programowanie obiektowe – vector
 
 * [ ] **Zadanie 1.** Proszę dokończyć implementację klasy Wektor. Przypominam, że powinna ona posiadać:
-  * [ ] konstruktor bezargumentowy
+  * [x] konstruktor bezargumentowy
   * [ ] konstruktor kopiujący
   * [x] konstruktor przenoszący
   * [x] konstruktor jednaoargumentowy, z argumentem określającym rozmiar wektora
-  * [ ] destruktor
+  * [x] destruktor
   * [x] operator= kopiujący
   * [ ] operator= przenoszący
   * [x] swap
