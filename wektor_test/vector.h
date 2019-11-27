@@ -14,7 +14,7 @@ public:
     Vector( size_t size );
     Vector( const Vector &vector);
     Vector( Vector &&vector);
-    ~Vector() = default;
+    ~Vector();
     friend void swap(Vector v, Vector u);
 
     Vector& operator=(Vector u){
