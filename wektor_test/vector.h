@@ -15,6 +15,12 @@ public:
     Vector( const Vector &vector);
     Vector( Vector &&vector);
     ~Vector();
+    friend void swap(Vector v, Vector u);
+
+    Vector& operator=(Vector u){
+        swap(*this, u);
+        return *this;
+    }
 };
 
 #endif // VECTOR_H
