@@ -27,3 +27,10 @@ void swap(Vector &v, Vector &u){
     std::swap(v.data, u.data);
     std::swap(v.size, u.size);
 }
+Vector::Vector(Vector &&vector)
+{
+    size=vector.size;
+    data=vector.data;
+    vector.size=0;
+    vector.data=nullptr;
+}
