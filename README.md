@@ -7,7 +7,7 @@ kkukiz – operator+
   * [ ] konstruktor kopiujący
   * [x] konstruktor przenoszący
   * [x] konstruktor jednaoargumentowy, z argumentem określającym rozmiar wektora
-  * [ ] destruktor
+  * [x] destruktor
   * [x] operator= kopiujący
   * [ ] operator= przenoszący
   * [x] swap
