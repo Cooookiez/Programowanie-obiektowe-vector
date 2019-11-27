@@ -1,7 +1,9 @@
 # Programowanie obiektowe – vector
 
+kkukiz – operator+
+
 * [ ] **Zadanie 1.** Proszę dokończyć implementację klasy Wektor. Przypominam, że powinna ona posiadać:
-  * [ ] konstruktor bezargumentowy
+  * [x] konstruktor bezargumentowy
   * [ ] konstruktor kopiujący
   * [x] konstruktor przenoszący
   * [x] konstruktor jednaoargumentowy, z argumentem określającym rozmiar wektora
@@ -9,10 +11,10 @@
   * [x] operator= kopiujący
   * [ ] operator= przenoszący
   * [x] swap
-  * [ ] operator+ dla dwóch obiektów klasy Wektor [Przydać się też mogą składowe:]
-    * [ ] int& operator[] (size_t n)
-    * [ ] int operator[] const (size_t n)
-    * [ ] size() const
+  * [x] operator+ dla dwóch obiektów klasy Wektor [Przydać się też mogą składowe:]
+  * [x] int& operator[] (size_t n)
+  * [x] int operator[] const (size_t n)
+  * [ ] size() const
 * [ ] **Zadanie 2.** A teraz proszę na podstawie powyższej klasy stworzyć analogiczną klasę Wektor98, mającą dokładnie tę samą implementację co klasa Wektor, ale bez operacji przenoszących (a zwłaszcza bez konstruktora przenoszącego).
 * [ ] **Zadanie 3.** W kolejnym punkcie proszę zbadać względną wydajność obu implementacji 
   * [ ] Do katalogu głównego swojego projektu pobierz bibliotekę Celero (https://github.com/DigitalInBlue/Celero). Skoro jest ona w publicznym repozytorium GitHuba, ze ściągnięciem jej nie powinno być kłopotu (przypominam: git clone …).
